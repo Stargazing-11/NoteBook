@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+        body{
+            font-family: 'Salsa', cursive;
+            background: #b8bedd;
+            height: fit-content;
+            height: 100%; 
+            overflow: hidden;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            margin-top: -2vh;
+        }
+
+        .title {
+            /* font-weight: bold; */
+            font-size: 5vw;
+        }
+        .img{
+            margin-top: 2vw;
+        }
+        .img img{
+            width: 50vw;
+        }
+        .container2{
+            margin-top: 25vh;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .auth{
+            margin-top: 2vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+        }
+        .auth .btn{
+            background:#84AAA3;
+            border: 2px solid #84AAA3;
+            padding: 3px 20px 3px 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .auth .btn a{
+            text-decoration: none;
+            font-size: 2vw;
+            color: whitesmoke;
+        }
+        .list{
+            margin-top: -5vh;
+        }
+        .list ul li{
+            font-size: 1.5vw;
+            color: rgba(0, 0, 0, 0.557);
+        }
+        .maintext{
+            margin-top: -1vh;
+            font-size: 1.8vw;
+            color: rgba(0, 0, 0, 0.557);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img"> 
+            <img src="./Image/Notebook-bro.png" alt="">
+        </div>
+
+        <div class="container2">
+            <div>
+                <h1 class="title">
+                    My Note Book
+                </h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        Create
+                    </li>
+                    <li>
+                        Edit
+                    </li>
+                    <li>
+                        Delete
+                    </li>
+                </ul>
+            </div>
+            <p class="maintext">
+                Notes of your own <br>
+                Safely and Permanently
+            </p>
+            <div class="auth">
+                <div class="btn">
+                    <a href="./register.html">Sign Up</a>
+                </div>
+
+                <div class="btn">
+                    <a href="./signin.html">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

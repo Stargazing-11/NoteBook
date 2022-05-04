@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+        body{
+
+            margin-top: 5vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Salsa', cursive;
+            background: #b8bedd;
+            height: fit-content;
+            height: 100%; 
+            overflow: hidden;
+        }
+        .btn{
+            margin-top: 20px;
+            padding: 3px 10px;
+            border-radius: 18px;
+            background-color: #6B91A5;
+            border: 2px solid #6B91A5;
+        }
+        .btn a{
+            color: black;
+            text-decoration: none;
+            font-size: larger;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        form input{
+            width: 40vw;
+            height: 20px;
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        form textarea{
+            width: 50vw;
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Add Note</h1>
+    </div>
+    <div>
+        <form action="">
+            <label for="name">Note Title</label>
+            <input type="text" id="name" >
+            <p>Note Content</p>
+            <textarea name="" cols="100" rows="20" placeholder="add your content here"></textarea>
+        </form>
+    </div>
+    <div class="btn">
+        <a href="">Save</a>
+    </div>
+</body>
+</html>

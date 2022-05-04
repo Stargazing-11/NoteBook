@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\Graphics_Asssignment"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "NoteBook"
+	}
+}
